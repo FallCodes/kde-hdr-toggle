@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "mattiadefrancesco@gmail.com",
+                "Name": "Mattia De Francesco"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Turn HDR on or off for selected monitors with one click, setting and restoring brightness",
+        "Icon": "video-display-brightness",
+        "Id": "com.fallcodes.hdrtoggle",
+        "License": "GPL-2.0-or-later",
+        "Name": "HDR Toggle",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

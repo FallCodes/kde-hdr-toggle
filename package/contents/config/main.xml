@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <!-- {"DP-2":{"managed":true,"setBrightness":true,"brightness":100}} -->
+    <entry name="monitors" type="String">
+      <label>Per-monitor settings (JSON)</label>
+      <default>{}</default>
+    </entry>
+    <!-- Internal, not shown in the settings page: {"DP-2":{"brightness":50,"wcg":false}} -->
+    <entry name="sdrSnapshot" type="String">
+      <label>Last brightness and wide color gamut seen in SDR mode, per output (JSON)</label>
+      <default>{}</default>
+    </entry>
+  </group>
+</kcfg>

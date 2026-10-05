@@ -3,17 +3,18 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "mattiadefrancesco@gmail.com",
                 "Name": "Mattia De Francesco"
             }
         ],
+        "BugReportUrl": "https://github.com/FallCodes/kde-hdr-toggle/issues",
         "Category": "Utilities",
         "Description": "Turn HDR on or off for selected monitors with one click, setting and restoring brightness",
         "Icon": "video-display-brightness",
         "Id": "com.fallcodes.hdrtoggle",
         "License": "GPL-2.0-or-later",
         "Name": "HDR Toggle",
-        "Version": "1.0"
+        "Version": "1.0",
+        "Website": "https://github.com/FallCodes/kde-hdr-toggle"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
 }

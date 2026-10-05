@@ -21,15 +21,25 @@ Turning HDR on also sets each monitor's brightness to a level you choose, for ex
 
 ## Install
 
+### From the KDE Store
+
+Right-click your panel → **Add Widgets…** → **Get New Widgets** → **Download New Plasma Widgets**, search for **HDR Toggle** and click **Install**. Then drag it from the Add Widgets list onto the panel.
+
+### From source
+
 From a clone of this repository:
 
 ```sh
 ./install.sh
 ```
 
-Then right-click your panel → **Add Widgets…**, search for **HDR Toggle** and drag it onto the panel. Right-click the icon → **Configure HDR Toggle…** to tick the monitors it should manage and set their HDR brightness.
+Then right-click your panel → **Add Widgets…**, search for **HDR Toggle** and drag it onto the panel.
 
 After pulling new changes, run `./install.sh --restart`. This reinstalls the widget and restarts plasmashell so the panel loads the new version.
+
+### Setup
+
+Right-click the icon → **Configure HDR Toggle…** to tick the monitors it should manage and set their HDR brightness.
 
 To uninstall, remove the widget from the panel, then run:
 
